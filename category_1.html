@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="css/dark.css" media="(prefers-color-scheme: dark)">
+    <title>Писатели</title>
+</head>
+<body>
+    
+    <div class="container" id="app">
+
+        <header class="header">
+            <ul class="header__elements topmenu">
+                <li class="b b1">
+                    <a href="main.html">
+                        <img src="pics/home_icon.png" alt="">
+                    </a>
+                    </li>
+                <li class="b b1">
+                    <a href="main.html">
+                        <img src="pics/user_profile_icon.png" alt="">
+                    </a>
+                    <ul class="submenu">
+                        <li class="b b2">
+                            <a href="category_1.html">
+                                Категория 1
+                            </a>
+                        </li>
+                        <li class="b b2">
+                            <a href="category_2.html">
+                                Категория 2
+                            </a>
+                        </li>
+                        <li class="b b2">
+                            <a href="category_3.html">
+                                Категория 3
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="b b2">
+                    <a href="category_4.html">
+                        Категория 4
+                    </a>
+                </li>
+                <li class="b b2">
+                    <a href="category_5.html">
+                        Категория 5
+                    </a>
+                </li>
+                <li class="b b2">
+                    <a href="category_6.html">
+                        Категория 6
+                    </a>
+                </li>
+                <li class="b b2">
+                    <a href="category_7.html">
+                        Категория 7
+                    </a>
+                </li>
+                <li class="b b2">
+                    <a href="category_8.html">
+                        Категория 8
+                    </a>
+                </li>
+                <li class="b b2">
+                    <div class="top-banner-inner">
+                        <button id="open">
+                            Модальное окно
+                        </button>
+                    </div>
+                </li>
+                <!-- <svg width="100" height="100">
+                    <a href=""></a>
+                </svg> -->
+            </ul>
+        </header>
+        <div class="modal" id="modal">
+            <div class="modal-backdrop"></div>
+            <div class="modal-body">
+                <button class="modal-close" id="close">Закрыть</button>
+                <h1>Модальные новости</h1>
+                <p>Подпишитесь на лабуду что мы вам предлагаем! Но ничего не обещаем и не гарантируем!</p>
+                <form>
+                    <p>
+                        <label for="email">Адрес email: </label>
+                        <input type="text" name="email">
+                    </p>
+                    <p><button type="submit">Подписаться</button></p>
+                </form>
+            </div>
+        </div>
+        
+        <main class="main">
+            <!-- <div class="sidebar">
+
+            </div> -->
+            <div class="content">
+                <div class="content__title">
+                    <h1>Писатели</h1>
+                </div>
+                <div class="content__subtitle">
+                    <h1>Русские писатели</h1>
+                </div>
+                <div class="content__items block">
+                    <div class="caption-bottom">
+                        <a href="category_1.1.html">
+                            <h2>Фёдор Достоевский<br>
+                                <i class="date">Влюбиться, еще не значит любить… Влюбиться можно и ненавидя.</i>
+                            </h2>
+                        </a>
+                    </div>
+    
+                    <div class="caption-bottom">
+                        <a href="category_1.2.html">
+                            <h2>Николай Гоголь<br>
+                                <i class="date">Я люблю поесть. Ведь на то живешь, чтобы срывать цветы удовольствия.</i>
+                            </h2>
+                        </a>
+                    </div>
+    
+                    <div class="caption-bottom">
+                        <a href="category_1.3.html">
+                            <h2>Лев Толстой<br>
+                                <i class="date">Ум — способность отклоняться от инстинкта и соображать эти отклонения.</i>
+                            </h2>
+                        </a>
+                    </div>
+    
+                    <div class="caption-bottom">
+                        <a href="category_1.4.html">
+                            <h2>Александр Пушкин<br>
+                                <i class="date">Кто жил и мыслил, тот не может В душе не презирать людей.</i>
+                            </h2>
+                        </a>
+                    </div>
+    
+                    <div class="caption-bottom">
+                        <a href="category_1.5.html">
+                            <h2>Иван Гончаров<br>
+                                <i class="date">Самолюбие – почти единственный двигатель, который управляет волей.</i>
+                            </h2>
+                        </a>
+                    </div>
+                </div>
+                
+                
+
+            </div>
+        </main>
+        <footer class="footer"></footer>
+
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/anascript.js"></script>
+</body>
+</html>

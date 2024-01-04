@@ -1,0 +1,71 @@
+/* Расцветка темной темы */
+body{
+    background-color: rgba(100, 68, 68, 0.658);
+    color: white;
+}
+
+/* Шапка */
+.header{
+    background-color: white;
+}
+
+.submenu {
+    background: white;
+}
+
+.header a{
+    color: black;
+}
+
+.header a:hover{
+    color: rgb(136, 81, 30);
+    text-shadow: rgb(172, 154, 154) 1px 0px 20px;
+}
+
+#open {
+    color: black;
+}
+
+#open:hover{
+    color: rgb(136, 81, 30);
+    text-shadow: rgb(172, 154, 154) 1px 0px 20px;
+}
+
+/* Тело */
+blockquote {
+    background: #f3e6d9;
+    color: #131314;
+}
+
+.caption-bottom {
+    border: 1px solid hsla(21, 37%, 15%, 0.3);
+}
+
+.caption-bottom :hover {
+    color: black;
+    text-shadow: rgb(172, 154, 154) 1px 0px 10px;
+}
+
+.caption-bottom h2 {
+    background: hsla(21, 37%, 15%, 0.2);
+    color: rgb(49, 41, 41);
+}
+
+button {
+    background-color: #fff;
+}
+
+.modal-body {
+    background-color: white;
+}
+
+figcaption a{
+    color: rgba(163, 179, 231, 0.87);
+}
+
+figcaption a:hover{
+    color: rgba(209, 220, 255, 0.87);
+}
+
+/* Подвал */
+
